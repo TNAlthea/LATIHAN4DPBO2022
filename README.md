@@ -11,4 +11,4 @@ NIM : 2005021
 
 ------------------
 # Hasil menjalankan program
-![tesPY](https://user-images.githubusercontent.com/99664611/156929203-b75796e3-8c94-4555-90a3-cae5dc25c4a0.png)
+![tesPY](https://user-images.githubusercontent.com/99664611/156929258-26eeac55-0b3b-4809-a023-c1b1e7839f94.png)
