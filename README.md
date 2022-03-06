@@ -13,7 +13,8 @@ NIM : 2005021
 ------------------
 ## Penjelasan/Konsep program
 ![Concept diagram](https://user-images.githubusercontent.com/99664611/156929719-437911c6-62fc-4af9-bacb-80018c1f0f06.png) 
-[Link Foto:] (https://github.com/TNAlthea/LATIHAN4DPBO2022/blob/main/Concept%20diagram.png)
+
+[Link Foto] (https://github.com/TNAlthea/LATIHAN4DPBO2022/blob/main/Concept%20diagram.png)
 
 
 ------------------
