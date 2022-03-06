@@ -17,10 +17,10 @@ Program ini memiliki 2 family yaitu vehicle dan person.
 - **Vehicle family's class:** Vehicle (parent), Ship (Child 1), Airplane (Child 2) (Hierarchical Inheritance)
 - **Person family's class:** Person (parent), Job (Child 1), Driver (Child of Job/child of child of Person) (Multi-level inheritance)
 
-*Vehicle* menggunakan konsep hierarchical dengan alasan bahwa **Ship** dan **Airplane** merupakan jenis dari **Kendaraan**, lalu semua atribut yang dimiliki **Kendaraan** dapat digunakan oleh kelas **Ship** maupun **Airplane**.
+*Vehicle* menggunakan konsep *hierarchical inheritance* dengan alasan bahwa **Ship** dan **Airplane** merupakan jenis dari **Kendaraan**, lalu semua atribut yang dimiliki **Kendaraan** dapat digunakan oleh kelas **Ship** maupun **Airplane**.
 
 Sedangkan kasus pada *person family* cukup unik, pada dasarnya job tidak terkait apapun dengan person karena merupakan dua entitas yang berbeda. **Namun**, pada kelas **job** memiliki atribut *position* yang dapat dihubungkan dengan identitas **person**. Oleh karena itu, kelas **Job** dipilih menjadi kelas anak dari kelas **Person**.
-Sedangkan kelas **Driver** merupakan salah satu jenis pekerjaan sehingga diposisikan menjadi kelas anak dari kelas **Job**.
+Sedangkan kelas **Driver** merupakan salah satu jenis pekerjaan sehingga diposisikan menjadi kelas anak dari kelas **Job**. Family **Person** menggunakan jenis *multi-level inheritance*
 
 ------------------
 ## Hasil menjalankan program
