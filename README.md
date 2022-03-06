@@ -14,8 +14,8 @@ NIM : 2005021
 ![Concept diagram](https://user-images.githubusercontent.com/99664611/156929719-437911c6-62fc-4af9-bacb-80018c1f0f06.png) 
 
 Program ini memiliki 2 family yaitu vehicle dan person.
-**Vehicle family's class:** Vehicle (parent), Ship (Child 1), Airplane (Child 2) (Hierarchical Inheritance)
-**Person family's class:** Person (parent), Job (Child 1), Driver (Child of Job/child of child of Person) (Multi-level inheritance)
+- **Vehicle family's class:** Vehicle (parent), Ship (Child 1), Airplane (Child 2) (Hierarchical Inheritance)
+- **Person family's class:** Person (parent), Job (Child 1), Driver (Child of Job/child of child of Person) (Multi-level inheritance)
 
 *Vehicle* menggunakan konsep hierarchical dengan alasan bahwa **Ship** dan **Airplane** merupakan jenis dari **Kendaraan**, lalu semua atribut yang dimiliki **Kendaraan** dapat digunakan oleh kelas **Ship** maupun **Airplane**.
 
