@@ -9,13 +9,18 @@ NIM : 2005021
 
 *Saya Sabian Annaya Havid mengerjakan Latihan dalam mata kuliah Desain Pemograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.*
 
-
 ------------------
 ## Penjelasan/Konsep program
 ![Concept diagram](https://user-images.githubusercontent.com/99664611/156929719-437911c6-62fc-4af9-bacb-80018c1f0f06.png) 
 
-[Link Foto](https://github.com/TNAlthea/LATIHAN4DPBO2022/blob/main/Concept%20diagram.png)
+Program ini memiliki 2 family yaitu vehicle dan person.
+**Vehicle family's class:** Vehicle (parent), Ship (Child 1), Airplane (Child 2) (Hierarchical Inheritance)
+**Person family's class:** Person (parent), Job (Child 1), Driver (Child of Job/child of child of Person) (Multi-level inheritance)
 
+*Vehicle* menggunakan konsep hierarchical dengan alasan bahwa **Ship** dan **Airplane** merupakan jenis dari **Kendaraan**, lalu semua atribut yang dimiliki **Kendaraan** dapat digunakan oleh kelas **Ship** maupun **Airplane**.
+
+Sedangkan kasus pada *person family* cukup unik, pada dasarnya job tidak terkait apapun dengan person karena merupakan dua entitas yang berbeda. **Namun**, pada kelas **job** memiliki atribut *position* yang dapat dihubungkan dengan identitas **person**. Oleh karena itu, kelas **Job** dipilih menjadi kelas anak dari kelas **Person**.
+Sedangkan kelas **Driver** merupakan salah satu jenis pekerjaan sehingga diposisikan menjadi kelas anak dari kelas **Job**.
 
 ------------------
 ## Hasil menjalankan program
