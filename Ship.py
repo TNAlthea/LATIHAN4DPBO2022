@@ -7,9 +7,10 @@ class Ship(Vehicle):
     __countryOfManufacture = "Dolor"
 
     ##Constructor
-    def __init__(self, age = 1000, type = "Ipsum"):
+    def __init__(self, age = 1000, type = "Ipsum", countryOfManufacture = "Dolor"):
         self.__age = age
         self.__type = type
+        self.__countryOfManufacture = countryOfManufacture
 
     ##Get-set
     def setAge(self, age):
