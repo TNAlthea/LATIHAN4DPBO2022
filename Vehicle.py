@@ -5,7 +5,7 @@ class Vehicle():
     __name = "Dolor"
 
     #Constructor
-    def __init__(self, fuelType = "Lorem", maxPassengers = "Ipsum 3000", name = "Dolor"):
+    def __init__(self, fuelType = "Lorem", maxPassengers = 100, name = "Dolor"):
         self.__fuelType = fuelType
         self.__maxPassengers = maxPassengers
         self.__name = name
