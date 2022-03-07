@@ -4,10 +4,10 @@ class Driver(Job):
     #private members      
     __licenseID = 12300000
     __activeUntil = "Dolor"
-    __vehicleType = "Male" 
+    __vehicleType = "Amet" 
 
     #Constructor
-    def __init__(self, licenseID = 12300000, vehicleType = "Ipsum 3000", activeUntil = "Dolor"):
+    def __init__(self, licenseID = 12300000, vehicleType = "Lorem", activeUntil = "Ipsum 3000"):
         self.__licenseID = licenseID
         self.__vehicleType = vehicleType
         self.__activeUntil = activeUntil
