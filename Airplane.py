@@ -7,9 +7,10 @@ class Airplane(Vehicle):
     __wingsLength = "Dolor Meters"
 
     ##Constructor
-    def __init__(self, age = 1000, type = "Ipsum"):
+    def __init__(self, age = 1000, type = "Ipsum", wingsLength = "Dolor Meters"):
         self.__age = age
         self.__type = type
+        self.__wingsLength = wingsLength
 
     ##Get-set
     def setAge(self, age):
