@@ -3,9 +3,9 @@ Repository ini bertujuan untuk memenuhi tugas latihan 4 pada mata kuliah Desain 
 
 ------------------
 
-Nama : Sabian Annaya Havid
-Program Studi/Kelas : Ilmu Komputer/C2
-NIM : 2005021
+- Nama : Sabian Annaya Havid
+- Program Studi/Kelas : Ilmu Komputer/C2
+- NIM : 2005021
 
 *Saya Sabian Annaya Havid mengerjakan Latihan dalam mata kuliah Desain Pemograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.*
 
