@@ -3,8 +3,8 @@ from Job import Job
 class Driver(Job):
     #private members      
     __licenseID = 12300000
-    __activeUntil = "Dolor"
-    __vehicleType = "Amet" 
+    __vehicleType = "Lorem" 
+    __activeUntil = "Ipsum 3000"
 
     #Constructor
     def __init__(self, licenseID = 12300000, vehicleType = "Lorem", activeUntil = "Ipsum 3000"):
