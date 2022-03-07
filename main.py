@@ -93,6 +93,8 @@ AirbusA350.setFuelType("SAF")
 AirbusA350.setMaxPassengers(350)
 AirbusA350.setType("Wide-Body Airliner")
 
+
+#PERSON FAMILY contains 3 classes such as Driver, Job, and Person itself.
 #PERSON WITH A NON-DRIVER JOB
 Ilham = Job()
 Ilham.setName("Ilham Kurniawan")
